@@ -1,0 +1,18 @@
+.neon a
+{
+	display: inline-block;
+	padding: 15px 30px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.neon a:hover
+{
+	color: #000000;
+	background: #FF2222;
+	box-shadow: 0 0 10px #FF2222, 0 0 40px #FF2222, 0 0 80px #FF2222;
+}

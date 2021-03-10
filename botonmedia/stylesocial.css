@@ -1,0 +1,126 @@
+li{
+opacity: 1;
+}
+ul{
+  display: flex;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  position: relative;
+  display: block;
+  color: #666;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: #000000;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: .5s;
+  justify-content: center;
+  align-items: center;
+}
+ul li:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  border-radius: 50%;
+  transform: scale(.9);
+  z-index: -1;
+  transition: .5s;
+}
+ul li:nth-child(1):before{
+  background: #3b5998;
+}
+ul li:nth-child(2):before{
+  background: #1DA1F2;
+}
+ul li:nth-child(3):before{
+  background: #E1306C;
+}
+ul li:nth-child(4):before{
+  background: #6441A4;
+}
+ul li:nth-child(5):before{
+  background: #ff0000;
+}
+ul li:nth-child(6):before{
+  background: #25D366;
+}
+ul li:nth-child(7):before{
+  background: #ffffff;
+}
+ul li:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+  /* box-shadow: 0 0 15px #d35400; */
+}
+ul li:nth-child(1):hover:before{
+  box-shadow: 0 0 15px #3b5998;
+}
+ul li:nth-child(2):hover:before{
+  box-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover:before{
+  box-shadow: 0 0 15px #E1306C;
+}
+ul li:nth-child(4):hover:before{
+  box-shadow: 0 0 15px #6441A4;
+}
+ul li:nth-child(5):hover:before{
+  box-shadow: 0 0 15px #ff0000;
+}
+ul li:nth-child(6):hover:before{
+  box-shadow: 0 0 15px #25D366;
+}
+ul li:nth-child(7):hover:before{
+  box-shadow: 0 0 15px #ffffff;
+}
+ul li:nth-child(1):hover{
+  color: #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+}
+ul li:nth-child(2):hover{
+  color: #1DA1F2;
+  box-shadow: 0 0 15px #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover{
+  color: #e23670;
+  box-shadow: 0 0 15px #E1306C;
+  text-shadow: 0 0 15px #E1306C;
+}
+ul li:nth-child(4):hover{
+  color: #6441a4;
+  box-shadow: 0 0 15px #6441a4;
+  text-shadow: 0 0 15px #6441a4;
+}
+ul li:nth-child(5):hover{
+  color: #ff0000;
+  box-shadow: 0 0 15px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
+} 
+ul li:nth-child(6):hover{
+  color: #25D366;
+  box-shadow: 0 0 15px #25D366;
+  text-shadow: 0 0 15px #25D366;
+}
+ul li:nth-child(7):hover{
+  color: #25D366;
+  box-shadow: 0 0 15px #ffffff;
+  text-shadow: 0 0 15px #ffffff;
+}
+/* ul li:hover{
+  color: #ffa502;
+  box-shadow: 0 0 15px #d35400;
+  text-shadow: 0 0 15px #d35400;
+} */

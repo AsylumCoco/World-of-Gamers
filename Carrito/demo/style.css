@@ -1,0 +1,18 @@
+.wrapper {
+    min-height: 100vh;
+}
+
+.block {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.block__pic {
+    width: 600px;
+    position: absolute;
+    top: 26%;
+    left: 15%;
+}

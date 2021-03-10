@@ -1,0 +1,47 @@
+.card{
+  width: 360px;
+  background: #0F0F0F;
+}
+.top-section{
+  height: 310px;
+  overflow: hidden;
+  background: #0F0F0F;
+}
+#image-container{
+  width: 100%;
+
+}
+.nav{
+  text-align: center;
+}
+.nav img{
+  width: 80px;
+  height: 50px;
+  border: 1px solid #ddd;
+  margin: 8px 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav img:hover{
+  border-color: #000000;
+}
+.price{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.product-info{
+  padding: 24px;
+}
+.name{
+  font-size: 18px;
+  color: #ff0000;
+}
+.btnp{
+  display: block;
+  background: #ff0000;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
